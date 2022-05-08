@@ -29,13 +29,10 @@ a {
 /*--------------------ШАПКА-------------------------*/
 .header-box {
   display: flex;
-  /*align-items: center;
-  padding-bottom: 25px;*/
 }
 
 .nav-box {
   display: flex;
-  /*align-items: center;*/
 }
 
 /*--------------------ЛОГО-------------------------*/
@@ -218,6 +215,7 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 30px;
+  border: none;
 }
 
 .button-name:focus {
@@ -323,7 +321,7 @@ a {
   border-radius: 4px;
   padding: 12px 12px 12px 42px;
   outline: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus{
@@ -353,8 +351,11 @@ label>a{
   text-decoration: underline;
 }
 
-.licence{
- 
+.contract_conditions{
+  color: #2196f3;
+}
+
+.licence{ 
   margin-top: 20px;
   margin-bottom: 30px;
   display: flex;
@@ -413,6 +414,7 @@ label>a{
   margin: 0px 124px ;
   
 }
+
 /*---------------------Особенности---------------------*/
 .features-section {
   padding-top: 94px;
@@ -467,7 +469,6 @@ label>a{
   letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 0px;
-  /*margin-right: 30px;*/
 }
 
 .features-container-icon{
@@ -510,16 +511,13 @@ label>a{
   margin-left: 30px;
 }
 
-/*.work-foto-item {
-  margin-right: 30px;
-}*/
-
 .item-photo{
   margin-right: 30px;
   position: relative;
   width: 370px;
   height: 294px;
 }
+
 .item-photo:last-child{
   margin-right: 0px;
 }
@@ -621,7 +619,6 @@ label>a{
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-
   transition: 
   color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -668,9 +665,7 @@ label>a{
   display: flex;
   align-items: center;
   justify-content: center;
-
   color: #AFB1B8;
-
   transition: 
   color 350ms cubic-bezier(0.4, 0, 0.2, 1),
   border-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -713,10 +708,8 @@ address {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-
   line-height: 1.71;
   letter-spacing: 0.03em;
-
 }
 
 .address-link:hover {
@@ -727,10 +720,8 @@ address {
   font-weight: 400;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
-
   line-height: 1.71;
   letter-spacing: 0.03em;
-
 }
 
 .logo-bottom{
@@ -833,7 +824,6 @@ address {
   justify-content: center;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.1 );
-
   transition: 
   color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -877,8 +867,7 @@ address {
 .button-flex {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  
+  margin-bottom: 50px;  
 }
 
 .button-flex li{
@@ -897,7 +886,6 @@ address {
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
   border: transparent;
-
   transition: 
   color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -908,9 +896,6 @@ address {
 .list-button-name:focus {
   background-color: #2196f3;
   color: #ffffff;
-  /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-  0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);*/
 }
 
 .project-box {
@@ -962,18 +947,16 @@ address {
   display: block;
   width: 100%;
   height: 100%;
-
   transform: translateY(100%);
   transition: 
   transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .project-tumb:hover {
   box-shadow: 
   0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
-  }
+}
   
 .project-tumb:hover .text-overlay{
   transform: translateY(0);
@@ -995,12 +978,10 @@ img{
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  /*margin-top: 20px;*/
 }
 
 .project-type {
   color: #757575;
-  /*font-weight: 400;*/
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
